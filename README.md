@@ -26,7 +26,7 @@ Create a directory named "MyLab" on the desktop.
 ```
 mkdir %userprofile%\Desktop\MyLab
 ```
-![o2](<output/Screenshot 2024-10-22 044645.png>)
+![image](https://github.com/user-attachments/assets/eea86cce-57e7-4a43-b01c-aa9fe86f1c47)
 ## COMMAND AND OUTPUT
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
@@ -34,14 +34,14 @@ Change to the "MyLab" directory and create an empty text file named "MyFile.txt"
 cd %userprofile%\Desktop\MyLab
 type nul > MyFile.txt
 ```
-![o3](<output/Screenshot 2024-10-22 044709.png>)
+![image](https://github.com/user-attachments/assets/b4d976e4-5293-46bb-bd8a-426e5f936284)
 ## COMMAND AND OUTPUT
 
 List the contents of the "MyLab" directory.
 ```
 dir %userprofile%\Desktop\MyLab
 ```
-![o4](<output/Screenshot 2024-10-22 045612.png>)
+![image](https://github.com/user-attachments/assets/fba85857-be48-4052-b3e5-db38bde1e064)
 ## COMMAND AND OUTPUT
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
@@ -49,14 +49,14 @@ Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 mkdir %userprofile%\Desktop\Backup
 copy MyFile.txt %userprofile%\Desktop\Backup
 ```
-![o5](<output/Screenshot 2024-10-22 045625.png>)
+![image](https://github.com/user-attachments/assets/e205d624-a586-4662-8d3b-5ff194602956)
 ## COMMAND AND OUTPUT
 
 Move the "MyLab" directory to the "Documents" folder.
 ```
 move MyLab C:\Users\admin\Documents
 ```
-![o6](<output/Screenshot 2024-10-22 045646.png>)
+![image](https://github.com/user-attachments/assets/1ed659f7-60a5-4eb3-93e7-96a14e8a6dbd)
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
@@ -74,7 +74,7 @@ del %userprofile%\Documents\DocBackup\*.docx
 echo Backup and deletion completed successfully!
 ```
 ## OUTPUT
-![o1](<output/Screenshot 2024-10-22 044626.png>)
+![image](https://github.com/user-attachments/assets/5e611193-73d1-44c7-8966-45a62b7b518b)
 
 # RESULT:
 The commands/batch files are executed successfully.
